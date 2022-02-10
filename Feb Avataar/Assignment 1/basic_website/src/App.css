@@ -1,0 +1,421 @@
+nav{
+  position: absolute;
+width: 1440px;
+height: 94px;
+display: flex;
+flex-direction: row;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+/* web - header */
+
+box-shadow: 0px 4px 4px rgba(42, 45, 123, 0.02);
+}
+.logo img{
+  position: absolute;
+width: 60px;
+height: 62px;
+left: calc(50% - 60px/2 - 466px);
+top: 16px;
+
+/* background: url(.png); */
+}
+.froute{
+  position: absolute;
+width: 119px;
+height: 19px;
+left: calc(50% - 119px/2 - 34.5px);
+top: 38px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+
+color: #1F2737;
+
+}
+.sroute{
+  position: absolute;
+width: 101px;
+height: 19px;
+left: calc(50% - 101px/2 + 135.5px);
+top: 38px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+
+color: #1F2737;
+
+}
+.troute{
+  position: absolute;
+width: 90px;
+height: 19px;
+left: calc(50% - 84px/2 + 288px);
+top: 38px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #1F2737;
+}
+.fourthroute{
+  position: absolute;
+width: 110px;
+height: 19px;
+left: calc(50% - 106px/2 + 443px);
+top: 38px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #1F2737;
+}
+
+
+
+/* css after navbar */
+.Dashboard{
+  position: absolute;
+width: 233px;
+height: 35px;
+left: 150px;
+top: 134px;
+
+font-family: SoleilW01-SemiBold;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+
+color: #606060;
+}
+
+
+/* css for dropdowns  */
+.firstDrop{
+  
+position: absolute;
+width: 169px;
+height: 44px;
+left: 150px;
+top: 209px;
+
+background: #FFFFFF;
+border: 1px solid #B8B298;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.secondDrop{
+  position: absolute;
+width: 151px;
+height: 44px;
+left: 347px;
+top: 209px;
+
+background: #FFFFFF;
+border: 1px solid #B8B298;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.thirdDrop{
+
+position: absolute;
+width: 145px;
+height: 44px;
+left: 522px;
+top: 209px;
+
+background: #FFFFFF;
+border: 1px solid #B8B298;
+box-sizing: border-box;
+border-radius: 8px;
+}
+Body{
+  background: #E5E5E5;
+}
+
+
+/* this is for cards component  */
+.Card1{
+  position: absolute;
+width: 558px;
+height: 339px;
+left: 150px;
+top: 293px;
+
+background: #FFFFFF;
+border: 1px solid #F2EEDA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.Card2{
+  position: absolute;
+width: 558px;
+height: 339px;
+left: 732px;
+top: 293px;
+
+background: #FFFFFF;
+border: 1px solid #F2EEDA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.Card3{
+  position: absolute;
+width: 558px;
+height: 339px;
+left: 150px;
+top: 664px;
+
+background: #FFFFFF;
+border: 1px solid #F2EEDA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.Card4{
+  position: absolute;
+width: 558px;
+height: 339px;
+left: 732px;
+top: 664px;
+
+background: #FFFFFF;
+border: 1px solid #F2EEDA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.Card5{
+  position: absolute;
+width: 558px;
+height: 238px;
+left: 150px;
+top: 1043px;
+
+background: #FFFFFF;
+border: 1px solid #F2EEDA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+
+/* Cards inside images  */
+img{
+  position: absolute;
+width: 103px;
+height: 115.48px;
+left: 24px;
+top: 20.1px;
+border-radius: 16px;
+
+/* background: url(); */
+}
+.name{
+  position: absolute;
+width: 312px;
+height: 29px;
+left: 143px;
+top: 24px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #282828;
+}
+.info{
+  position: absolute;
+width: 150px;
+height: 19px;
+left: 143px;
+top: 69px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #606060;
+}
+.info2{
+  
+width: 198px;
+
+}
+.edu{
+  position: absolute;
+width: 109px;
+height: 19px;
+left: 143px;
+top: 100px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #282828;
+
+}
+.address{
+  position: absolute;
+width: 78px;
+height: 19px;
+left: 143px;
+top: 131px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #282828;
+
+}
+.line{
+  position: absolute;
+width: 558px;
+height: 0px;
+left: 0px;
+top: 166px;
+
+border: 1px solid #F2EEDA;
+}
+
+.topAreas{
+  position: absolute;
+width: 87px;
+height: 24px;
+left: 24px;
+top: 182px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #606060;
+}
+
+.skill1{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 16px;
+
+position: absolute;
+width: 294px;
+height: 30px;
+left: 143px;
+top: 183px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.skill2{
+  /* Auto layout */
+
+width: 218px;
+left: 143px;
+top: 225px;
+
+}
+.skill3{
+  width: 195px;
+left: 143px;
+top: 267px;
+}
+
+.data{
+  position: static;
+width: 262px;
+height: 20px;
+left: 16px;
+top: 5px;
+
+font-family: SoleilW01-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #606060;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.data2{
+width: 186px;
+
+}
+.data3{
+width: 163px;
+
+}
+.dash{
+  position: absolute;
+width: 8px;
+height: 24px;
+left: 143px;
+top: 194px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #606060;
+}
