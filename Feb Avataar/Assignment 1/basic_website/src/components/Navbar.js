@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from "../imageAssets/Rectangle.png"
+import Image from "../imageAssets/Avtaarlogo.png"
+// import Image from "https://uploads-ssl.webflow.com/607885eca472d65596435fe1/60957d412369ea016bff7a69_Asset%203%404x-p-500.png"
 
 export default function Navbar() {
   return (

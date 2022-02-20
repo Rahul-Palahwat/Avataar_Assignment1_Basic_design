@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .recruiter{
+    position: absolute;
+    width: 233px;
+    height: 35px;
+    left: 150px;
+    top: 134px;
+    font-family: SoleilW01-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #606060;
+}
+.dropdown1{
+    position: absolute;
+    width: 169px;
+    height: 44px;
+    left: 150px;
+    top: 209px;
+    background: #FFFFFF;
+    border: 1px solid #B8B298;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display:inline-block;
+}
+.dropdown2{
+    position: absolute;
+    width: 151px;
+    height: 44px;
+    left: 347px;
+    top: 209px;
+    background: #FFFFFF;
+    border: 1px solid #B8B298;
+    box-sizing: border-box;
+border-radius: 8px;
+}
+.dropdown3{
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 522px;
+    top: 209px;
+    background: #FFFFFF;
+    border: 1px solid #B8B298;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.dropdown-content{
+    position: absolute;
+width: 345px;
+height: 502px;
+left: 5px;
+top: 43px;
+display:none;
+background: #FFFFFF;
+border: 1px solid #F2EEDA;
+box-sizing: border-box;
+box-shadow: 0px 2px 20px rgba(96, 96, 96, 0.4);
+border-radius: 8px;
+z-index: 1;
+}
+.show{
+    display:block;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h4 class="recruiter">Recruiter&nbspDashboard</h4>
+    </div>
+    <nav>
+        <div class="dropdown1">
+            <nav>
+                <div class="dropdown-content" id="myDropdown">
+                    <form>
+                        <input class="fullstack" type="radio" name="fullstack" id="fullstack">
+                        <label class="full" for="fullstack">Fullstack Developer</label>
+                        <input class="soft" type="checkbox" name="Software development lifecycle" id="Software development"
+                            value="Software development lifecycle">
+                        <h5 class="dev">Software development lifecycle</h5>
+                        <input class="pro" type="checkbox" name="Programming" value="Programming">
+                        <h5 class="gram">Programming</h5>
+                        <input class="mob" type="checkbox" name="Mobile app development"
+                            value="Mobile app development">
+                        <h5 class="app">Mobile app development</h5>
+                        <input class="gitt" type="checkbox" name="Github version control"
+                            value="Github version control">
+                        <h5 class="hub">Github version control</h5>
+                        <input class="back" type="checkbox" name="Backend" value="Backend">
+                        <h5 class="end">Backend</h5>
+                        <input class="UX" type="radio" name="UX" id="UX">
+                        <label class="Designer" for="UX">UX Designer</label>
+                        <input class="wire" type="checkbox" name="Wireframing" value="Wireframing">
+                        <h5 class="framing">Wireframing</h5>
+                        <input class="fig" type="checkbox" name="Figma" value="Figma">
+                        <h5 class="ma">Figma</h5>
+                        <input class="user" type="checkbox" name="User research" value="User research">
+                        <h5 class="research">User research</h5>
+                        <input class="problem" type="checkbox" name="Problem Solving" value="Problem Solving">
+                        <h5 class="solve">Problem Solving</h5>
+                        <div class="line2">
+                        </div>
+                        <nav>
+                            <h4 class="resett">Clear</h4>
+                            <div class="btn" id="btn">
+                                <input type="submit" value="Apply">
+                            </div>
+                        </nav>
+                    </form>
+                </div>
+                <i class="fa-solid fa-caret-down" id="click"></i>
+            </nav>
+        </div>
+        <div class="dropdown2">
+            <h4 class="college">College Year</h4>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="dropdown3">
+            <h4 class="location">Location</h4>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </nav>
+    <script src="https://kit.fontawesome.com/dec22e1eeb.js" crossorigin="anonymous"></script>
+   
+        <script>
+    document.getElementById("click").onclick = function () { myFunction() };
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    </script>
+</body>
+</html>
